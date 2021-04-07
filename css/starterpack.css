@@ -1,0 +1,43 @@
+/* ----- PACK TOUTES LES PAGES ----- */
+
+
+/* ---- BODY ----- */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255,126,238);
+    background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
+    
+
+}
+
+
+/* ---- POSITION DU LOGO ---- */
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---- TAILLE ET FONT DU LOGO ---- */
+
+.logo p{
+    font-family: "kapo";
+    font-size: 5rem;
+}
+
+/* ---- LOGO VISITÉ ---- */
+
+.logo a:visited{
+    color: black;
+}
+
+.titleStarter h2{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+
+

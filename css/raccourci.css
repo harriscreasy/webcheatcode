@@ -1,0 +1,41 @@
+/* ------- RACCOURCI ------- */
+
+
+.flex{
+    display: flex;
+}
+
+
+.justifyC{
+    justify-content: center;
+}
+
+.justifySA{
+    justify-content: space-around;
+}
+
+.justifySB{
+    justify-content: space-between;
+}
+
+.alignC{
+    align-items: center;
+}
+
+.flexDC{
+    flex-direction: column;
+}
+
+.flexWrap{
+flex-wrap: wrap;
+}
+
+.borderb{
+    border: 2px solid black;
+}
+
+.sise{
+    height: auto;
+    width: 100vw;
+    
+}
