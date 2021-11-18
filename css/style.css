@@ -6,13 +6,15 @@
            
    }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* ---- BODY ---- */
 
 body{
-    margin: 0;
-    padding: 0;
-    background: rgb(255,126,238);
-    background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
+    background: black;
 }
 
 /* ---- POSITION DU LOGO ---- */
@@ -20,33 +22,26 @@ body{
 .logo{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo img{
-    width: 80vw;
+    width: 500px;
     
 }
 
+.logo h2{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
 /* ---- POSITION DE LA PRESENTATION ---- */
-
-.presentation{
-    display: flex;
-    justify-content: center;
-}
-
-/* ---- STYLE DE LA PRESENTATION ---- */
-
-.presentation h1{
-    border: 10px solid black;
-    text-align: center;
-    font-size: 2rem;
-    width: 60vw;
-}
-
-
-h2{
-    color: black;
-}
 
 
 .containera{
@@ -55,17 +50,15 @@ h2{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
-   
-    
+
 }
 
 /* ---- CONFIGURE LE CONTOUR DE LA CARD---- */
 
 .containera .carda{
     position: relative;
-    width: 350px;
-    height: 400px;
+    width: 220px;
+    height: 270px;
     background: rgba(255, 255, 255, 0.15);
     margin: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -87,6 +80,7 @@ h2{
     flex-direction: column;
     opacity: 0.5;
     transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -94,7 +88,7 @@ h2{
 
 .containera .carda:hover .contenta{
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-8px);
 
 }
 
@@ -102,8 +96,8 @@ h2{
 
 .containera .carda .contenta .imgArt{
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, 0.35);
@@ -123,7 +117,7 @@ h2{
 /* ---- CONFIGURE LE NOM DE L'ARTISTE---- */
 
 .containera .carda .contenta .contentaArt h3{
-    color: black;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
@@ -131,6 +125,7 @@ h2{
     text-align: center;
     margin: 20px 0 10px;
     line-height: 1.1em;
+    
 }
 
 /* ---- CONFIGURE LE STYLE DE MUSIQUE---- */
@@ -143,20 +138,52 @@ h2{
     text-transform: initial;
 }
 
-
-
-.title-footer-network{
-    margin: 30px 0;
+#btn{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+#btn span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+    cursor: pointer;
 }
 
-
-.icon-footer-network img{
-    width: 90px;
-    margin: 50px 0;
+.active{
+    background: yellow;
 }
 
+.actispan{
+    background: green;
+    margin-left: 31px;
+}
 
+.on{
+   background: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
+footer h2, footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    
+}
 
 /* ------- RACCOURCI ------- */
 
