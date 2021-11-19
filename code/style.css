@@ -8,12 +8,18 @@ body{
  scrollbar-color: black;
 }
 
-.logo-medias{
+.logo-title{
     display: flex;
     justify-content: center;
-   
+    margin: 20px 0;
+    width: 100%;
 }
 
+.logo-title img{
+    width: 100%;
+    margin: auto;
+   
+}
 
 /* ---- POSITION DE LA PRESENTATION ---- */
 
@@ -25,6 +31,14 @@ body{
     align-items: center;
     flex-wrap: wrap;
 
+}
+
+.containera h3{
+    color: white;
+}
+
+.first h2{
+    color: white;
 }
 
 /* ---- CONFIGURE LE CONTOUR DE LA CARD---- */

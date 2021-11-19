@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* ---- BODY ---- */
@@ -24,12 +25,17 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .logo img{
     width: 500px;
+    margin: 10px;
     
 }
+
+
+
 
 .logo h2{
     color: white;
@@ -79,7 +85,7 @@ body{
     align-items: center;
     flex-direction: column;
     opacity: 0.5;
-    transition: 0.5s;
+    transition: 0.3s;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -138,39 +144,6 @@ body{
     text-transform: initial;
 }
 
-#btn{
-    background: #efefef;
-    height: 30px;
-    width: 60px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    transition: background 0.5s;
-}
-#btn span{
-    display: block;
-    background: #999;
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    margin-left: 2px;
-    transition: background 0.5s, margin-left 0.5s;
-    cursor: pointer;
-}
-
-.active{
-    background: yellow;
-}
-
-.actispan{
-    background: green;
-    margin-left: 31px;
-}
-
-.on{
-   background: white;
-}
 footer{
     display: flex;
     justify-content: center;
