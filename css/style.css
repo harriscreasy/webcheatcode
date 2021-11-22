@@ -18,6 +18,26 @@ body{
     background: black;
 }
 
+.menu-vert{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-instagram-square{
+    color: white;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
 /* ---- POSITION DU LOGO ---- */
 
 .logo{
