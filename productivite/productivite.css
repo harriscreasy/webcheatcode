@@ -42,10 +42,10 @@ header{
 @media only screen 
    and (max-width : 532px) {
 
-    .logo img{
+    .logo-title img{
         width: 300px;
-        margin: 10px;
-        
+        margin: auto;
+       
     }
 
 
@@ -63,7 +63,7 @@ header{
 .containera .carda{
     position: relative;
     width: 135px;
-    height: 210px;
+    height: 225px;
     background: rgba(255, 255, 255, 0.15);
     margin: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -101,8 +101,8 @@ header{
 
 .containera .carda .contenta .imgArt{
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, 0.35);
@@ -144,3 +144,10 @@ header{
 }
   
 }
+
+  
+
+
+
+
+
