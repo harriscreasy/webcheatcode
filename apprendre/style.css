@@ -8,6 +8,11 @@ body{
  scrollbar-color: black;
 }
 
+mark {
+    background: orange;
+    color: black;
+}
+
 .logo-title{
     display: flex;
     justify-content: center;
