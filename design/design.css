@@ -8,17 +8,55 @@ body{
  scrollbar-color: black;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
 .logo-title{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: 20px 0;
     width: 100%;
 }
 
+.logo-page{
+    padding: 20px 0 0 0;
+    width: 200px;
+}
+
 .logo-title img{
-    width: 100%;
+    
     margin: auto;
    
+}
+
+.title-section{
+    display: flex;
+    justify-content: center;
+}
+
+.title-section h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    margin: 10px 0px;
+    font-weight: 1000;
 }
 
 /* ---- POSITION DE LA PRESENTATION ---- */
