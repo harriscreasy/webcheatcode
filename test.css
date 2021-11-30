@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+.containaz{
+    height: 50vh;
+    width: 100%;
+    background: red;
+}
