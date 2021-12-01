@@ -14,3 +14,8 @@ body{
     width: 100%;
     background: red;
 }
+
+h1{
+    z-index: 1000;
+    color: white;
+}
